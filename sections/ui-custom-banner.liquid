@@ -1,0 +1,24 @@
+
+
+<div class="container">
+    {{ section.settings.ui_custom_header_text }}
+</div>
+{% schema %}
+  {
+    "name": "ui custom banner",
+    "tag": "section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "ui_custom_header_text",
+        "label": "Ui Custom Text"
+      }
+    ],
+    "presets": [
+      {
+        "name": "ui custom banner",
+        "settings": {}
+      }
+    ]
+  }
+{% endschema %}
